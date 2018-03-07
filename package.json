@@ -12,10 +12,13 @@
     "url": "https://github.com/<username>/<my-ts-lib>/issues"
   },
   "homepage": "https://github.com/<username>/<my-ts-lib>#readme",
+  "module": "es/index.js",
+  "main": "cjs/index.js",
+  "typings": "./cjs/index.d.ts",
+  "files": ["src", "es", "cjs", "amd", "umd"],
   "scripts": {
-    "build": "",
-    "build.watch": "",
-    "publish": ""
+    "build":
+      "tsc && tsc --outDir amd --module AMD && tsc --outDir umd --module UMD && tsc --outDir es --target ES6"
   },
   "devDependencies": {
     "husky": "^0.15.0-rc.8",
