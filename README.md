@@ -2,7 +2,7 @@
 
 A starter typescript library project.
 
-To get started, `git clone git@github.com:rencire/ts-lib-starter.git`
+To get started, `git clone git@github.com:rencire/ts-lib-starter.git <your_project_name>`
 
 ## Tools
 
