@@ -1,3 +1,9 @@
+## typescript lib starter
+
+A starter typescript library project.
+
+To get started, `git clone git@github.com:rencire/ts-lib-starter.git`
+
 ## Tools
 
 * https://github.com/Microsoft/TypeScript
