@@ -21,9 +21,12 @@
       "tsc && tsc --outDir amd --module AMD && tsc --outDir umd --module UMD && tsc --outDir es --target ES6"
   },
   "devDependencies": {
+    "@types/jest": "^22.2.0",
     "husky": "^0.15.0-rc.8",
+    "jest": "^22.4.2",
     "lint-staged": "^7.0.0",
     "prettier": "^1.11.1",
+    "ts-jest": "^22.4.1",
     "tslint": "^5.9.1",
     "typescript": "^2.7.2"
   },

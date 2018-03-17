@@ -7,6 +7,8 @@ To get started, `git clone git@github.com:rencire/ts-lib-starter.git <your_proje
 ## Tools
 
 * https://github.com/Microsoft/TypeScript
-* https://github.com/typicode/husky
 * https://github.com/palantir/tslint
 * https://github.com/prettier/prettier
+* https://github.com/okonet/lint-staged
+* https://github.com/typicode/husky
+* https://github.com/kulshekhar/ts-jest
