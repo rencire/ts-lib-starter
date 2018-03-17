@@ -4,14 +4,14 @@
   "description": "A typescript lib starter",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<username>/<my-ts-lib>.git"
+    "url": ""
   },
-  "author": "@<username>",
-  "license": "ISC",
+  "author": "",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/<username>/<my-ts-lib>/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/<username>/<my-ts-lib>#readme",
+  "homepage": "",
   "module": "es/index.js",
   "main": "cjs/index.js",
   "typings": "./cjs/index.d.ts",
@@ -22,8 +22,8 @@
   },
   "devDependencies": {
     "husky": "^0.15.0-rc.8",
+    "lint-staged": "^7.0.0",
     "prettier": "^1.11.1",
-    "pretty-quick": "^1.4.1",
     "tslint": "^5.9.1",
     "typescript": "^2.7.2"
   },
