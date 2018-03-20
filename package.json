@@ -17,10 +17,10 @@
   "typings": "./cjs/index.d.ts",
   "files": ["src", "es", "cjs"],
   "scripts": {
-    "build": "tsc && tsc --outDir es --target ES6",
-    "test": "jest -c .jestrc.json",
-    "test.w": "jest -c .jestrc.json --watch",
-    "test.wa": "jest -c .jestrc.json --watchAll"
+    "build": "rimraf es cjs && tsc && tsc --outDir es --target ES6",
+    "test": "jest",
+    "test.w": "jest --watch",
+    "test.wa": "jest-c .jestrc.json --watchAll"
   },
   "devDependencies": {
     "@types/jest": "^22.2.0",
@@ -28,6 +28,7 @@
     "jest": "^22.4.2",
     "lint-staged": "^7.0.0",
     "prettier": "^1.11.1",
+    "rimraf": "^2.6.2",
     "ts-jest": "^22.4.1",
     "tslint": "^5.9.1",
     "tslint-config-prettier": "^1.10.0",
