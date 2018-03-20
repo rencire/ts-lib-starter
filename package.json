@@ -15,10 +15,9 @@
   "module": "es/index.js",
   "main": "cjs/index.js",
   "typings": "./cjs/index.d.ts",
-  "files": ["src", "es", "cjs", "amd", "umd"],
+  "files": ["src", "es", "cjs"],
   "scripts": {
-    "build":
-      "tsc && tsc --outDir amd --module AMD && tsc --outDir umd --module UMD && tsc --outDir es --target ES6",
+    "build": "tsc && tsc --outDir es --target ES6",
     "test": "jest -c .jestrc.json",
     "test.w": "jest -c .jestrc.json --watch",
     "test.wa": "jest -c .jestrc.json --watchAll"
