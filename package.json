@@ -20,7 +20,7 @@
     "build": "rimraf es cjs && tsc && tsc --outDir es --target ES6",
     "test": "jest",
     "test.w": "jest --watch",
-    "test.wa": "jest-c .jestrc.json --watchAll"
+    "test.wa": "jest --watchAll"
   },
   "devDependencies": {
     "@types/jest": "^22.2.0",
