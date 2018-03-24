@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "libs": ["ES2016"],
+    "lib": ["ES2016"],
     "strict": true,
     "sourceMap": true,
     "target": "ES5",
