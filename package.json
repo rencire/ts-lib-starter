@@ -12,15 +12,18 @@
     "url": ""
   },
   "homepage": "",
-  "module": "es/index.js",
+  "module": "lib/index.js",
   "main": "cjs/index.js",
   "types": "./cjs/index.d.ts",
-  "files": ["src", "es", "cjs"],
+  "files": ["src", "lib", "cjs"],
   "scripts": {
-    "build": "rimraf es cjs && tsc && tsc --outDir es --target ES6",
+    "build": "rimraf lib cjs && tsc && tsc --outDir lib --target ES6",
     "test": "jest",
     "test.w": "jest --watch",
-    "test.wa": "jest --watchAll"
+    "test.wa": "jest --watchAll",
+    "release.patch": "npm version patch && npm publish",
+    "release.minor": "npm version minor && npm publish",
+    "release.major": "npm version major && npm publish"
   },
   "devDependencies": {
     "@types/jest": "^22.2.0",

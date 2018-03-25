@@ -2,10 +2,8 @@
 
 node_modules
 
-dist/main.js
+lib/
 
-umd/
-amd/
 cjs/
 es/
 
