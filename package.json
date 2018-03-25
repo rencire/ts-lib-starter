@@ -14,7 +14,7 @@
   "homepage": "",
   "module": "es/index.js",
   "main": "cjs/index.js",
-  "typings": "./cjs/index.d.ts",
+  "types": "./cjs/index.d.ts",
   "files": ["src", "es", "cjs"],
   "scripts": {
     "build": "rimraf es cjs && tsc && tsc --outDir es --target ES6",
