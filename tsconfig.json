@@ -7,5 +7,6 @@
     "declaration": true,
     "outDir": "cjs"
   },
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
