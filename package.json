@@ -7,7 +7,7 @@
     "url": "https://github.com/rencire/ts-lib-starter"
   },
   "author": "Eric Ren",
-  "license": "GPL-3.0-only",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/rencire/ts-lib-starter/issues"
   },
