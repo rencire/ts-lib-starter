@@ -1,17 +1,17 @@
 {
-  "name": "my-ts-lib",
+  "name": "ts-lib-starter",
   "version": "0.0.1",
   "description": "A typescript lib starter",
   "repository": {
     "type": "git",
     "url": ""
   },
-  "author": "",
-  "license": "",
+  "author": "Eric Ren",
+  "license": "GPL-3.0-only",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/rencire/ts-lib-starter/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/rencire/ts-lib-starter",
   "module": "lib/index.js",
   "main": "cjs/index.js",
   "types": "./cjs/index.d.ts",
@@ -21,7 +21,7 @@
     "cjs"
   ],
   "scripts": {
-    "build": "rimraf lib cjs && tsc && tsc --outDir lib --target ES6",
+    "build": "rm -rf lib cjs && tsc && tsc --outDir lib --target ES6",
     "test": "jest",
     "test.w": "jest --watch",
     "test.wa": "jest --watchAll",
