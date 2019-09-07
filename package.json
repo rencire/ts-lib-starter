@@ -4,7 +4,7 @@
   "description": "A typescript lib starter",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/rencire/ts-lib-starter"
   },
   "author": "Eric Ren",
   "license": "GPL-3.0-only",
@@ -12,16 +12,16 @@
     "url": "https://github.com/rencire/ts-lib-starter/issues"
   },
   "homepage": "https://github.com/rencire/ts-lib-starter",
-  "module": "lib/index.js",
-  "main": "cjs/index.js",
-  "types": "./cjs/index.d.ts",
+  "type": "module",
+  "module": "lib/main.js",
+  "main": "lib/main.js",
+  "types": "lib/main.d.ts",
   "files": [
     "src",
-    "lib",
-    "cjs"
+    "lib"
   ],
   "scripts": {
-    "build": "rm -rf lib cjs && tsc && tsc --outDir lib --target ES6",
+    "build": "rm -rf lib && tsc",
     "test": "jest",
     "test.w": "jest --watch",
     "test.wa": "jest --watchAll",
