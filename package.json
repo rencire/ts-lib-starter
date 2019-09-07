@@ -17,7 +17,7 @@
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
   "files": [
-    "src",
+    "src/**/!(*.spec.ts)",
     "lib"
   ],
   "scripts": {
