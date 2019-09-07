@@ -15,7 +15,11 @@
   "module": "lib/index.js",
   "main": "cjs/index.js",
   "types": "./cjs/index.d.ts",
-  "files": ["src", "lib", "cjs"],
+  "files": [
+    "src",
+    "lib",
+    "cjs"
+  ],
   "scripts": {
     "build": "rimraf lib cjs && tsc && tsc --outDir lib --target ES6",
     "test": "jest",
@@ -35,7 +39,7 @@
     "ts-jest": "^22.4.1",
     "tslint": "^5.9.1",
     "tslint-config-prettier": "^1.10.0",
-    "typescript": "^2.7.2"
+    "typescript": "^3.6.2"
   },
   "dependencies": {},
   "sideEffects": false
