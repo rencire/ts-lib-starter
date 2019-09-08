@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build": "rm -rf lib && tsc",
-    "lint": "eslint src/**/*.ts",
+    "lint": "tsc --noEmit && eslint src/**/*.ts --fix",
     "test": "jest",
     "test.w": "jest --watch",
     "test.wa": "jest --watchAll",
