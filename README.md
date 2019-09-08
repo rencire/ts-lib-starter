@@ -1,6 +1,13 @@
 # typescript lib starter
 
-A starter typescript library project with focus on packaging code for ES modules on browser and NodeJS.
+An opinionated typescript starter project with focus on packaging modern code for ES modules on Browser and NodeJS runtimes.
+
+- Transpiles Typescript source to ES2018 files.
+- Specifyes `type: "module"` in `package.json` to assume all `.js` files are using ES modules.
+  - Can still write `commonjs` files via `.cjs` file extension.
+  - See [docs](https://nodejs.org/docs/latest-v12.x/api/esm.html#esm_code_package_json_code_code_type_code_field) for more info.
+- Output a type declaration file to `lib/main.d.ts`.
+
 
 ## Prerequisites
 
@@ -32,15 +39,6 @@ nix-shell
 
 If you have [nvm](https://github.com/nvm-sh/nvm), a `.nvmrc` file is provided.
 
-## Defaults
-
-Defaults facillitate writing modern code, targeting modern runtimes:
-
-- Transpiles Typescript source to ES2018 files.
-- Specifyes `type: "module"` in `package.json` to assume all `.js` files are using ES modules.
-  - Can still write `commonjs` files via `.cjs` file extension.
-  - See [docs](https://nodejs.org/docs/latest-v12.x/api/esm.html#esm_code_package_json_code_code_type_code_field) for more info.
-- Output a type declaration file to `lib/main.d.ts`.
 
 # Notes
 
