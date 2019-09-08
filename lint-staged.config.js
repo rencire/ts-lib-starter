@@ -2,7 +2,7 @@ module.exports = {
   "*.{ts,tsx}": [
     "eslint 'src/**/*.ts' --fix",
     "git add",
-    "jest --findRelatedTests"
+    "jest --findRelatedTests",
   ],
-  "*.{json,md}": ["prettier --write", "git add"]
+  "*.{json,md}": ["prettier --write", "git add"],
 };
