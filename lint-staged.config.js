@@ -1,9 +1,8 @@
 module.exports = {
   "*.{ts,tsx}": [
-    "prettier --write",
-    "tslint 'src/**/*.ts' --fix",
+    "eslint 'src/**/*.ts' --fix",
     "git add",
-    "jest --bail --findRelatedTests"
+    "jest --findRelatedTests"
   ],
   "*.{json,md}": ["prettier --write", "git add"]
 };
